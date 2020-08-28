@@ -1,0 +1,23 @@
+[merge]
+tool = unityyamlmerge
+
+[mergetool "unityyamlmerge"]
+trustExitCode = false
+cmd = '<path to UnityYAMLMerge>' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
+
+.idea/
+.vs/
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp.csproj
+*.csproj
+*.sln
+
+/Library/
+Logs/
+Temp/
+Assets/Plugins/Editor/JetBrains.meta
+Horrorfield_2.0_GD.sln
+obj/
+
+GRANNY_2.sln
+AssetBundles/
